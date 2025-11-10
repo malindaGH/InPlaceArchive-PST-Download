@@ -1,4 +1,4 @@
-# ===================Script - Malinda Prasad========================
+# ===================Script========================
 # Get The Email Address of the Mailbox
 $addressOrSite = Read-Host "Enter The Email Address of The Mailbox "
 
@@ -129,4 +129,5 @@ if ($runChoice -match '^[Yy]$') {
     Write-Host "`nCompliance Search not created. You can run manually using:`n" -ForegroundColor Yellow
     Write-Host $complianceSearchCommand -ForegroundColor Cyan
     return
+
 }
